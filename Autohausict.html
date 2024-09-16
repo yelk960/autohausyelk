@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autohaus Yelken</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgb(36, 132, 196);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ddd;
+        }
+        .container {
+            padding: 20px;
+            text-align: center;
+        }
+        .auto {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+        .auto img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .auto h2 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Willkommen bei Autohaus Yelken</h1>
+    </header>
+
+    <nav>
+        <a href="#audi">Audi RS3</a>
+        <a href="#golf">Golf 8 GTI</a>
+        <a href="#porsche">Porsche Cayman</a>
+    </nav>
+
+    <div class="container">
+        <!-- Audi RS3 -->
+        <div class="auto" id="audi">
+            <h2>Audi RS3</h2>
+            <img src="https://assets.autoweek.nl/m/80pyqcub2ds1_800.jpg" alt="Audi RS3">
+            <p>Der Audi RS3 bietet Weltklasse-Leistung mit seinem leistungsstarken Motor und fortschrittlicher Technologie. Perfekt für Liebhaber von Geschwindigkeit und Luxus.</p>
+            <p><strong>Preis: €40.000</strong></p>
+        </div>
+
+        <!-- Golf 8 GTI -->
+        <div class="auto" id="golf">
+            <h2>Golf 8 GTI</h2>
+            <img src="https://www.hamiltonautomobielen.nl/webservices/sold_feed_images/28812005-1635755693/28812005-0.jpg" alt="Golf 8 GTI">
+            <p>Der Volkswagen Golf 8 GTI ist eine ikonische Hot Hatch, bekannt für seine sportliche Leistung und seine praktische Alltagstauglichkeit.</p>
+            <p><strong>Preis: €35.000</strong></p>
+        </div>
+
+        <!-- Porsche Cayman -->
+        <div class="auto" id="porsche">
+            <h2>Porsche Cayman</h2>
+            <img src="https://autorai.nl/wp-content/uploads/2021/11/769-07216-9-1280x900.jpg" alt="Porsche Cayman">
+            <p>Der Porsche Cayman ist ein stilvoller und leistungsstarker Sportwagen, perfekt für diejenigen, die ein aufregendes Fahrerlebnis suchen.</p>
+            <p><strong>Preis: €55.000</strong></p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Autohaus Yelken. Alle Rechte vorbehalten.</p>
+    </footer>
+
+</body>
+</html>
